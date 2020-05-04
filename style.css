@@ -1,0 +1,476 @@
+/*adding style to the body of page*/
+body{
+	background: #0c1027;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+/*adding style to header of page*/
+.body-header
+{
+	width: 98%;
+    height: 12vh;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color:  #0c1027;
+    z-index: 100;
+}
+.body-header div
+{
+	display: flex;
+	width: auto;
+}
+.header_right_div
+{
+	float: right;
+	display: flex;
+	/*position: absolute;*/
+	height: 12vh;
+	width: 50%;
+}
+.header_right_div div
+{
+	width: auto;
+	margin-top: 5%;
+	margin-right:20px; 
+}
+#music_player_logo img
+{
+	width: 9rem;
+    height: 5.5rem;
+}
+#favourite{
+	height: 25px;
+	border-radius: 20px;
+	padding: 2px 2px;
+	margin-left: 20px;
+	margin-top: 15%;
+}
+#favourite:hover
+{
+	background-color: #11193e; 
+}
+.search-box{
+	background: #11193e;
+	height: 25px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	vertical-align: middle;
+}
+.search-box a{
+	padding: 10px;
+}
+.search-box a:hover{
+	color: green;
+}
+.search-btn{
+	border-radius: 0%;
+	display: :flex;
+	justify-content: center;
+	align-items: center;
+}
+.search-text{
+	border: none;
+	background:none;
+	outline: none;
+	color: white;
+	font-size: 13px;
+	transition: 0.6s;
+}
+.active i{
+	padding: 5px;
+	margin-top: 40%;
+}
+/*adding style to profile image*/
+#profile img{
+	height: 3rem;
+	width:3rem;
+	margin: 0px;
+	border-radius: 50%;
+	margin-top: 10%;
+	vertical-align: middle;
+}
+
+/*main section styling*/
+main{
+	width: 60%;
+	height: auto;
+	display: inline-block;
+	margin-top: 4px;
+	margin-left:8vw;
+}
+/*adding property to all images present in the website*/
+img{
+
+	transition: ease-in-out 0.5s;
+	z-index: 1;
+}
+img:hover
+{
+	transform: scale(1.2);
+	z-index: 10;
+}
+/*adding style to header of main section*/
+.main-header
+{
+  overflow: auto;
+  white-space: nowrap;
+}
+}
+.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu img {
+  display: inline-block;
+  padding: 4px;
+  height: 15rem ;
+  width: 18rem;
+}
+section {
+	
+	width : 98%;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 5px;
+	margin:15px; 
+}
+section h4{
+	color: white;
+	font-weight: 700;
+	margin-left: 4px;
+}
+.section-heading {
+	text-align: left;
+}
+#latest-release div{
+display:inline-block;	
+flex-direction: row;
+}
+/*adding style to the latest release section*/
+.latest-release-content 
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 2px;
+	padding: 10px;
+	padding-left: 2px;
+	color: white;
+}
+.latest-release-box
+{
+	width: 45%;
+	height: 45%;
+	margin: 10px;
+}
+.latest-release-box img{
+	width: 40%;
+}
+.latest-relaese-icon
+{
+	margin-top: 2%;
+}
+.latest-relaese-icon i
+{
+	position: relative;
+}
+.latest-relaese-icon ul
+{
+	margin-top: -10px; 
+	margin-top: -4px; 
+	list-style: none;
+	height: 40px;
+	line-height: 50px ;
+	text-align: center;
+	float: left; 
+	color: #fff;
+	position: absolute;
+}
+.latest-relaese-icon-toggle
+{
+	display: none;
+}
+.latest-relaese-icon ul li
+{
+	border: 2px solid lightgray;
+	background: white;
+	width: 200px;
+	top: 0;
+}
+.latest-relaese-icon ul li a
+{
+	color: gray;
+}
+.latest-relaese-icon ul
+{
+	display: none;
+}
+.latest-relaese-icon ul li i
+{
+	margin-left: 10px;
+	float: left;
+	color: gray;
+	line-height: 50px ;
+}
+.latest-relaese-icon ul li:hover
+{
+	background-color: pink;
+}
+.latest-relaese-icon>label
+{
+	position: relative;
+	cursor: pointer;
+}
+.latest-relaese-icon-toggle:checked ~ ul
+{
+	display: block;
+	z-index: 10;
+	transition: 0.5s;
+}
+#latest-release div img{
+	width :10rem;
+	height: 10rem;
+	vertical-align: middle;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+}
+#latest-release div img:hover{
+transform: scale(1.1); 
+transition: 1.5s;
+border-radius: 4px;
+}
+.time{
+	margin-left: 4rem;
+	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	vertical-align: top;
+}
+.text-size1{
+	font-size: 25px;
+}
+.text-size2{
+	font-size: 16px;
+}
+.awsome-icon:hover{
+	color: #e48995;
+	transition: 0.5s;
+}
+.accordion-toggle:checked ~ .view-all-content{
+	max-height: 100vh;
+	/*border: 2px solid white;*/
+	text-decoration: none;
+	color: white;
+
+}
+/*adding style to the popular artist section*/
+.popular-artist-content 
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 0%;
+	margin-right: 2%;
+	color: white;
+}
+.heading-design{
+color: white;
+margin-top: 1.5rem;
+font-size: 25px;
+}
+.border-image img{
+	width: 7rem;
+	height: 7rem;
+	border-radius: 100%;
+	margin-right: 1rem;
+}
+.border-image>div{
+	display: inline-block;
+}
+#artist-conatiner
+{
+	white-space: nowrap;
+	overflow: auto;
+}
+#artist-conatiner>div {
+	display: inline-block;
+}
+.center{
+	text-align: center;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+/*adding style to the station section*/
+.station-image-box p{
+	margin-top: 2px;
+	margin-bottom: 2px; 
+	text-align: center;
+}
+.station-image-box{
+	width:100px;
+	height:100px;
+	margin: 5px 5px 5px 5px;
+	overflow-wrap: break-word;
+}
+.station-image-box img
+{
+	width:100px;
+	height:100px;
+	background-size: contain;
+	border-radius: 50%;
+	opacity: 0.6;
+}
+#station-section{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0px;
+	background-color: #11193e;
+}
+/*adding style to the other section */
+#other-section
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+	justify-content: space-around;
+}
+#other-section figure
+{
+	height: 12rem;
+	width: 17rem;
+	margin: 2px;
+	overflow: hidden;
+}
+#other-section img
+{
+	height: 12rem;
+	width: 17rem;
+	margin: 2px;
+	cursor: pointer;
+}
+.other-section-box{
+	position: relative;
+}
+.text-block 
+{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background: transparent;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*adding styling to song info*/
+
+.language-info{
+	display: inline-block;
+}
+
+.language-info img{
+	height:7rem;
+	width:7rem;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 0%;
+}
+
+.language-info .title{
+	font-size:14px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:0;
+}
+
+.language-info .singer{
+	font-size:10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding:0;
+}
+/*adding aside section styling*/
+aside{
+	width: 21%;
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: top;
+	height: auto;
+	margin-top: 4px;
+}
+#aside-heading
+{
+	height: 50px;
+	color: white;
+	padding: 0px 4px;
+	z-index: 100;
+}
+#aside-heading span
+{
+	margin-left: 2px;
+}
+#aside-content
+{
+	margin-left:-20px;
+	margin-right: 5px; 
+	box-sizing: border-box;
+}
+#aside-content a{
+	text-decoration: none;
+	color: white;
+}
+#aside-content ol li{
+	color: white;
+	margin-left: -12%;
+}
+#aside-content ol li div{
+	height : 4rem;
+}
+
+#aside-content ol li div i{
+
+	float: right;
+	color: white;
+	margin: 5px 5px 5px; 
+}
+#aside-content img{
+	width: 3.5rem;
+	height: 3.5rem;
+	margin-left: 5px;
+	margin-top: 1%;
+	margin-bottom: 3%; 
+	vertical-align: middle;
+
+}
+.aside-list-name
+{
+	padding: 2px 2px;
+	margin-left:0px;
+}
+.aside-list-name a{
+	margin: 10px;
+}
+#aside-content{
+    position: sticky;
+    top: 0;
+    height: 60vh;
+    overflow-y: scroll;
+
+}
+#aside-content::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+#aside-content::-webkit-scrollbar-track{
+        box-shadow: inset 0 0 2px #0c1027;
+        border-radius: 5px;
+}
+
+

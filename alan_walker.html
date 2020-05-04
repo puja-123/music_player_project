@@ -1,0 +1,341 @@
+<!-- popular artist page -->
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popular Artist</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<!-- header section of music player-->
+	<div class="body-header">
+    <!-- adding music player logo -->
+    <div>
+    	<a href="music_player_home_page.html">Back</a>
+    	<a href="#" id="music_player_logo"><img src="images/cn_logo.png"></a> 
+      <!-- favourite info begins -->
+      <div id="favourite">   
+        <a href="">favourite</a>
+      </div>
+      <!-- favourite info ends -->
+    </div>
+    <!-- search notification and profile adding-->
+    <div class="header_right_div">
+        <div class="search-box"> 
+          <!--  adding search icon -->
+            <a class="search-btn" href="#">
+               <i class="fas fa-search"></i>
+            </a>
+            <input class= "search-text" placeholder="search" type="search" name="search" />
+            <!--  adding search icon -->
+            <a class="search-btn" href="#">
+                <i class="fas fa-microphone"></i>
+            </a>
+        </div>
+        <!-- notification logo -->
+        <div><a class="active" href="#"><i class="fas fa-bell"></i></a></div>
+        <!-- profile image -->
+        <div  id="profile">
+            <a href="#"><img src="images/my_pic_music.jpg"></a>
+          </div>
+    </div>
+    <!-- search notification and profile adding ends-->
+	</div>
+  <!-- end of header section -->
+	 <!-- body section begins -->
+	<main style="margin-top: 10px;">
+		<!-- about band info begins -->
+		<div id="now-playing">
+			<div id="now-playing-img">
+				<img src="images/alan_walker.jpeg">
+			</div>
+			<div id="now-playing-content">
+				<div>
+					<span id="followers">1.8M followers</span>
+					<h2>Alan Walker</h2>
+					<span>English-born Norwegian DJ</span>
+				</div>
+				<div>
+				<div>
+				<p>Alan Olav Walker (born 24 August 1997) is an English-born Norwegian DJ and record producer.[2] In 2015, Walker received international acclaim after releasing the single "Faded", which received platinum certifications in 14 countries. </p>
+				</div>
+				<div>
+					<span><button id="play-all-btn">Play All</button>
+					<a href="" style="margin-left: 100px;">follow</a></span>			
+					<p>100Tracks | 120 Albums</p>
+				</div>
+				
+				</div>
+			</div>
+		</div>
+		<!-- band info ends -->
+		<!-- list of similar band song begins -->
+		<div id="div-list">
+			<!-- song info begins -->
+			<div class="list-content2">
+				<span>01</span>
+				<img src="images/alan_walker.jpeg">
+				<div style="margin-top: 2vh; float: left; ">
+					<span>Faded</span><br>
+					<span><a href="">Alan Walker</a></span>
+				</div> 
+				<div class="add_react"><span><i class="far fa-heart"></i></span>&nbsp&nbsp&nbsp<span><i class="fas fa-plus"></i></span>
+                </div> 
+			</div>
+			<!-- song info ends -->
+			<!-- song info begins -->
+			<div class="list-content2">
+			<span>01</span>
+				<img src="images/alan_walker.jpeg">
+				<div style="margin-top: 2vh; float: left; ">
+					<span>Faded</span><br>
+					<span><a href="">Alan Walker</a></span>
+				</div> 
+				<div class="add_react"><span><i class="far fa-heart"></i></span>&nbsp&nbsp&nbsp<span><i class="fas fa-plus"></i></span>
+                </div> 
+			</div>
+			<!-- song info ends -->
+			<!-- song info begins -->
+			<div class="list-content2">
+				<span>01</span>
+				<img src="images/alan_walker.jpeg">
+				<div style="margin-top: 2vh; float: left; ">
+					<span>Faded</span><br>
+					<span><a href="">Alan Walker</a></span>
+				</div> 
+				<div class="add_react"><span><i class="far fa-heart"></i></span>&nbsp&nbsp&nbsp<span><i class="fas fa-plus"></i></span>
+                </div> 
+			</div>
+			<!-- song info ends -->
+			<!-- song info begins -->
+			<div class="list-content2">
+				<span>01</span>
+				<img src="images/alan_walker.jpeg">
+				<div style="margin-top: 2vh; float: left; ">
+					<span>Faded</span><br>
+					<span><a href="">Alan Walker</a></span>
+				</div> 
+				<div class="add_react"><span><i class="far fa-heart"></i></span>&nbsp&nbsp&nbsp<span><i class="fas fa-plus"></i></span>
+                </div> 
+			</div>
+			<!-- song info ends -->
+		</div>
+		<!-- list of similar band song begins -->
+	</main>
+	<!-- aside section begins -->
+	<aside style="width: 28%;">
+		<div class="aside-similar-artist-div">
+			<!-- similar artist section begins -->
+		<section id="similar-artist-section" >
+			<!-- similar artist section header begins -->
+			<div class="similar-artist-header">
+				<span>Similar Artist</span>
+				<div class="view-all-tab" style="float: right;">
+						<input type="checkbox" id="item1" class="accordion-toggle view_all_queue" name="toggle">
+						<label for="item1">View All</label>
+						<div class="view-all-content">
+							<div ><a href="">playlist</a></div>
+							<div ><a href="">Add favourite</a></div>
+						</div>
+				</div>
+			</div>
+			<!-- similar artist section header ends -->
+			<!-- similar artist section content begins -->
+			<div id="similar-artist-content"> 
+				<!-- similar artist info begins -->
+				<div class="playlist-section1">
+					<img src="images/english1.jpeg">
+					<div>
+						<span>One direction</span><br>
+						<span style="font-size: 1rem;">Popular band</span>
+					</div> 
+					<div class="time" style="/*border: 2px solid white; */float: right; margin-top: 0px;"><span class="awsome-icon">&nbsp&nbsp&nbsp<i class="fas fa-ellipsis-h"></i></span><br><span class="text-size2">4:44</span>
+                	</div> 
+				</div>
+				<!-- similar artist info ends -->
+				<!-- similar artist info begins -->
+				<div class="playlist-section1">
+					<img src="images/english1.jpeg">
+					<br>
+					<br>
+					<div> <!-- style="border: 2px solid white;" -->
+						<span>One direction</span><br>
+						<span style="font-size: 1rem;">Popular band</span>
+					</div> 
+					<div class="time" style="/*border: 2px solid white;*/ float: right;margin-top: 0px;"><span class="awsome-icon">&nbsp&nbsp&nbsp<i class="fas fa-ellipsis-h"></i></span><br><span class="text-size2">4:44</span>
+                	</div> 
+				</div>
+				<!-- similar artist info ends -->
+				<!-- similar artist info begins -->
+				<div class="playlist-section1">
+					<img src="images/english1.jpeg">
+					<br>
+					<br>
+					<div> <!--  style="border: 2px solid white;" -->
+						<span>The beatles</span><br>
+						<!-- <span class="text-size1">The beatles</span><br> -->
+						<span style="font-size: 1rem;">Popular band</span>
+					</div> 
+					<div class="time" style="/*border: 2px solid white;*/ float: right;margin-top: 0px;"><span class="awsome-icon">&nbsp&nbsp&nbsp<i class="fas fa-ellipsis-h"></i></span><br><span class="text-size2">4:44</span>
+                	</div> 
+				</div>
+				<!-- similar artist info ends -->
+			</div>
+			<!-- similar artist section content ends -->
+		</section>
+		<section id="popular-song-section" class="aside-div">
+			<!-- recently played header begins -->
+			 <div class="similar-artist-header" style="height: auto;">
+				<span>Recently Played</span>
+				<div class="view-all-tab" style="float: right;">
+						<input type="checkbox" id="item2" class="accordion-toggle view_all_queue" name="toggle">
+						<label for="item2">View All</label>
+						<!-- dropdown info begins -->
+						<div class="view-all-content">
+							<div ><a href="">playlist1</a></div>
+							<div ><a href="">playlist2</a></div>
+						</div>
+						<!-- dropdown info ends -->
+				</div>
+				<!-- recently played header ends -->
+			</div>
+			<!-- recently played container info begins -->
+			<div id="aside-content">
+				<!-- recently played list info begins-->
+			<ol>
+				<li>
+					<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				    <!-- song info ends -->
+			    </li>
+				<li>
+					<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				    <!-- song info ends -->
+			    </li>
+				<li>
+					<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				    <!-- song info ends -->
+			    </li>
+				<li>
+					<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				     <!-- song info ends -->
+			    </li>
+				<li>
+					<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				    <!-- song info ends -->
+			    </li>
+			    <li>
+			    	<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				    <!-- song info ends -->
+			    </li>
+			    <li>
+			    	<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				    <!-- song info ends -->
+			    </li>
+			    <li>
+			    	<!-- song info begins -->
+					<div>
+						<a href="#" class="aside-list"><img src="images/english1.jpeg"></a>
+  						<a  class="aside-list-name" href="#">Alan walker</a> 
+						<i class="far fa-heart"></i>
+				    </div>
+				  <!-- song info ends -->
+			    </li>
+			</ol>
+			<!-- recently played list info begins-->
+		</div>
+		<!-- dropdown info ends -->
+		</section>
+		<!-- recently played section ends -->
+	</div>
+	</aside>
+	<!-- aside section ends -->
+	<!-- footer section begin -->
+	<footer>
+	<!-- left section of footer begins -->
+    <div id="left-footer">
+    	        <a href="">
+				<img src="images/english1.jpeg" style="height:8vh;">
+				</a>
+				<a href="">
+				<div style="margin-top: 1vh;">
+					<span>Onism</span><br>
+					<span>Elseeee</span>
+				</div> 
+			    </a>
+				<div style="margin-top: 1vh; float: right; margin-left: 30%; "><span><i class="far fa-heart"></i></span>&nbsp&nbsp<span id="block-song"><i class="fas fa-ban"></i></span>
+                </div> 
+    </div>
+    <!-- left section of footer ends -->
+    <!-- center section of footer begins -->
+    <div id="center-footer">
+    	<!-- list icon section begins -->
+      <div>
+        <ul class="horizontal-list text-center">
+          <li><a href="#"><i class="fas fa-random"></i></a></li>
+          <li><a href="#"><i class="fas fa-step-backward"></i></a></li>
+          <li><a href="#" ><i class="far fa-pause-circle"></i></a></li>
+          <li><a href="#"><i class="fas fa-step-forward"></i></i></a></li>
+          <li><a href="#"><i class="fas fa-redo-alt"></i></i></a></li>
+        </ul>
+      </div>
+      <!-- list icon section ends -->
+      <div>
+          <span>1:50</span><input type="range" min="1" max="5" value="1.5"><span>4:44</span>
+      </div>
+    </div>
+     <!-- center section of footer ends -->
+     <!-- right section of footer begins -->
+   <div id="right-footer">
+   	<!-- list icon section begins -->
+        <ul class="horizontal-list text-center" style="margin-top: 2vh;">
+          <li><a href="#"><i class="fas fa-stream"></i></a></li>
+          <li><a href="#"><i class="fas fa-headphones-alt"></i></a></li>
+          <li><a href="#"><i class="fas fa-volume-up"></i></a></li>
+          <li><input type="range" min="1" max="5" value="1.5"></li>
+          <li><a href="#"><i class="fas fa-expand-arrows-alt"></i></a></li>
+        </ul>
+    <!-- list icon section ends -->
+   </div>
+   <!-- right section of footer begins -->
+</footer>
+<!-- footer section ends -->
+</body>
+<!-- body ends -->
+</html>

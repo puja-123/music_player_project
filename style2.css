@@ -1,0 +1,362 @@
+/*Artist page styling*/
+/*adding style to the body of artist page*/
+body
+{
+	padding-bottom: 15vh;
+	min-height: 100vh;
+}
+i,img
+{
+	cursor: pointer;
+}
+i:hover
+{
+	color: #00cc00;
+}
+a{
+	color: white;
+	text-decoration: none; 
+	font-size: 100%;
+	white-space: nowrap;
+}
+ a:hover
+ {
+ 	color: #00cc00;
+ }
+ /*adding style to now playing secton(header of main of artist page)
+*/#now-playing
+{
+	background-color: #11193e;
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	justify-content: space-between; 
+}
+#now-playing-img
+{
+	width: 40%;
+	height: 39vh;
+}
+#now-playing-img img
+{
+	width: 100%;
+	height: 39vh;
+	background-size: cover;
+}
+#now-playing-content
+{
+	height: 39vh;
+	width: 50%;
+	overflow-wrap: break-word;
+	text-align: left;
+}
+#now-playing-content p h2
+{
+	margin: 20px; 
+
+}
+#followers
+{
+	float: right;
+}
+#play-all-btn
+{
+	height: 50px;
+	width:100px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+  background-image: linear-gradient(to right, #00cc00,#0c1027);
+}
+#play-all-btn:hover
+{
+	box-shadow: 0px 0px 2px 2px #00cc00;
+}
+
+/*
+adding style to the song list section */
+#div-list
+{
+	width: 100%;
+	height :auto;
+	margin-top: 15px; 
+}
+.list-content2{
+	height: 10vh;
+	width: 99%;
+	display: flex;
+	margin-top: 10px;
+	background-color: #302f3e;
+}
+.list-content2  div{
+	height: auto;
+	width: auto;
+}
+.list-content2>span
+{
+	margin-top:4vh;
+	padding: 10px;
+}
+.list-content2 span
+{
+	font-size: 1rem;
+	font-weight: 200;
+}
+.list-content2 img
+{
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 2px 2px lightgray;
+	margin: 4px; 
+}
+.add_react
+{
+	margin-top: 2vh;
+	 float: right;
+	  margin-left: 55%;
+}
+/*adding style to similar artist section*/
+.similar-artist
+{
+	width: 80%;
+	height: 20rem;
+}
+.similar-artist img
+{
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+#playlist-content
+{
+	width: 90%;
+	height: 500px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+}
+.playlist-section1 
+{
+	width: 98%;
+	height:auto;
+	display: flex;
+}
+
+.playlist-section1 img{
+	float: left; 
+	height: 80px;
+	width: 80px;
+	padding: 10px;
+}
+.playlist-section1 div{
+	float: left; 
+	width: auto;
+	margin-top: 10px; 
+}
+
+/*adding styling to the aside section of artist page*/
+.aside-similar-artist-div
+{
+	height: auto ;
+	display: flex;
+	flex-direction: column;
+	padding: 2px; 
+	margin: 4px;
+}
+
+.similar_artist img{
+	width: 3.5rem;
+	height: 3.5rem;
+	margin-left: 5px;
+	margin-top: 1%;
+	margin-bottom: 3%; 
+	vertical-align: middle;
+}
+.add-to-playlist
+{
+	top: 50%;
+	vertical-align: middle;
+	float: right;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#similar-artist-section , #popular-song-section
+{
+	width: 87%;
+	height: 40vh;
+	padding: 0px;
+	position: sticky;
+	overflow-y: scroll;
+}
+.similar-artist-header
+{
+	height: 2rem;
+	z-index: 100;
+}
+.similar-artist-header span
+{
+	float: left;
+	padding: 10px;
+	font-weight: 700;
+	font-size: 20px;
+}
+#similar-artist-content
+{
+	top: 10%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px;
+    z-index: 1;
+    
+}
+#similar-artist-content::-webkit-scrollbar {
+        width: 5px;
+    }
+#similar-artist-content::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 2px #00cc00; 
+        border-radius: 5px;
+}
+#similar-artist-content::-webkit-scrollbar-thumb {
+        background-color: white; 
+        border-radius: 5px;
+}
+
+.view-all-tab 
+{
+	width: auto;
+	height: 2rem;
+	z-index: 100;
+	float: right;
+}
+.accordion-toggle
+{
+	display: none;
+}
+label{
+	text-align: right;
+	font-weight: bold;
+	position: relative;
+	display: block;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.view-all-content div
+{
+	height: 2rem;
+	border: 2px solid gray;
+	background-color: pink;}
+.view-all-content
+{
+	max-height: 0;
+	transition: all 0.5s;
+	overflow: hidden;
+	background-image: linear-gradient(to right, #00cc00,#0c1027);
+	color: black;
+	z-index: 100;
+}
+
+.accordion-toggle:checked ~ .view-all-content{
+	max-height: 100vh;
+	text-decoration: none;
+	color: white;
+
+}
+
+#block-song i:hover
+{
+	color: red;
+}
+.view_all_queue ~ label
+{
+	color: cyan;
+}
+
+/*adding style to the footer*/
+footer{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-image: linear-gradient(to right,#424ef5,#6600cc);
+   max-height: 10vh;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   z-index: 100;
+}
+footer div{
+	display: inline-block;
+	padding: 2px;
+	width: 25%;
+	box-sizing: border-box;
+}
+#left-footer
+{
+	height: 10vh;
+	margin: 2px 10px;
+	display: flex;
+}
+#left-footer-aname {
+	padding: 5px 5px;
+	margin-left:0px;
+	top: 2%;
+	color: white;
+	text-decoration: none;
+	vertical-align: middle;
+}
+footer img{
+	width: 6vw;
+	height: 7vh;
+}
+footer a{
+	margin:4px; 
+}
+#right-footer
+{
+	
+	height: 10vh;
+	margin: 10px;
+}
+#center-footer
+{
+	height: 10vh;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+}
+#center-footer>div{
+	height: 4vh;
+	width: 100%;
+	margin: 2px;
+}
+footer input{
+	color: white;
+	width: 75%;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+#center-footer span{
+	margin: 4px;
+}
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+	}
+.text-center{
+	text-align: center;
+} 
+.horizontal-list li{
+	display: inline-block;
+	margin: 2px;
+}
+.horizontal-list li a{
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+}

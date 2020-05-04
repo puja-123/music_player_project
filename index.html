@@ -1,0 +1,511 @@
+<!-- home page music player-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Music Player
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+  <!-- header section of music player-->
+	<div class="body-header">
+    <!-- adding music player logo -->
+    <div><a href="#" id="music_player_logo"><img src="images/cn_logo.png"></a> 
+      <!-- favourite info begins -->
+      <div id="favourite">   
+        <a href="">favourite</a>
+      </div>
+      <!-- favourite info ends -->
+    </div>
+    <!-- search notification and profile adding-->
+    <div class="header_right_div">
+        <div class="search-box"> 
+          <!--  adding search icon -->
+            <a class="search-btn" href="#">
+               <i class="fas fa-search"></i>
+            </a>
+            <input class= "search-text" placeholder="search" type="search" name="search" />
+            <!--  adding search icon -->
+            <a class="search-btn" href="#">
+                <i class="fas fa-microphone"></i>
+            </a>
+        </div>
+        <!-- notification logo -->
+        <div><a class="active" href="#"><i class="fas fa-bell"></i></a></div>
+        <!-- profile image -->
+        <div  id="profile">
+            <a href="#"><img src="images/my_pic_music.jpg"></a>
+          </div>
+    </div>
+    <!-- search notification and profile adding ends-->
+	</div>
+  <!-- end of header section -->
+	<main>
+     <!-- header of main section begins-->
+      <section class="main-header">
+           <!-- horizontal scroll for cover images begins -->
+            <div class="scrollmenu">
+               <img src="images/mood_booster.jpeg">  
+               <img src="images/edm.jpg">
+               <img src="images/bollywood_song.jpg">
+               <img src="images/edm.jpg">
+               <img src="images/mood_booster.jpeg">
+            </div> 
+            <!-- horizontal scroll for cover images ends -->
+      </section>
+      <!-- end of header of main section -->
+
+      <!-- latest release section begins-->
+      <section id="latest-release">
+        <!-- heading for latest release -->
+      	  <h2>Latest Release</h2> 
+      	<div class="latest-release-content"> 
+          <!-- latest release info -->
+      		<div class="latest-release-box">
+      			<img src="images/onism.jpeg">
+      			<div id="singer-details"><span class="text-size1">Onism</span><br>
+                <span class="text-size2">AUG 11,2017</span></div> 
+                <div class="time latest-relaese-icon">
+                  <input type="checkbox" id="latest-release-icon1" class="latest-relaese-icon-toggle" name="toggle">
+                        <label for="latest-release-icon1">&nbsp&nbsp<i class="fas fa-ellipsis-h"></i></label>
+                  <ul>
+                      <li><a href=""><i class="fas fa-play"></i> Play Now</a></li>
+                      <li><a href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                      <li><a href=""><i class="far fa-heart"></i> Add to favoourite</a></li>
+                      <li><a href=""><i class="fas fa-info-circle"></i> Get Info</a></li>
+                    </ul>
+                    </span><br><span class="text-size2">4:44</span>
+                </div>      		
+          </div>
+          <!-- latest release info end -->
+          <!-- latest release info -->
+      		<div class="latest-release-box">
+      			<img src="images/onism.jpeg">
+      			<div id="singer-details"><span class="text-size1">Onism</span><br>
+                    <span class="text-size2">AUG 11,2017</span></div> 
+                      <div class="time latest-relaese-icon">
+                        <input type="checkbox" id="latest-release-icon2" class="latest-relaese-icon-toggle" name="toggle">
+                        <label for="latest-release-icon2">&nbsp&nbsp<i class="fas fa-ellipsis-h"></i></label>
+                    <ul>
+                      <li><a href=""><i class="fas fa-play"></i> Play Now</a></li>
+                      <li><a href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                      <li><a href=""><i class="far fa-heart"></i> Add to favoourite</a></li>
+                      <li><a href=""><i class="fas fa-info-circle"></i> Get Info</a></li>
+                    </ul>
+                      </span><br><span class="text-size2">4:44</span>
+                      </div>      		
+                </div>
+                <!-- latest release info end -->
+                <!-- latest release info -->
+      		<div class="latest-release-box">
+      			<img src="images/onism.jpeg">
+      			<div id="singer-details"><span class="text-size1">Onism</span><br>
+                    <span class="text-size2">AUG 11,2017</span></div> 
+                      <div class="time latest-relaese-icon">
+                        <input type="checkbox" id="latest-release-icon3" class="latest-relaese-icon-toggle" name="toggle">
+                        <label for="latest-release-icon3">&nbsp&nbsp<i class="fas fa-ellipsis-h"></i></label>
+                      <ul>
+                      <li><a href=""><i class="fas fa-play"></i> Play Now</a></li>
+                      <li><a href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                      <li><a href=""><i class="far fa-heart"></i> Add to favoourite</a></li>
+                      <li><a href=""><i class="fas fa-info-circle"></i> Get Info</a></li>
+                    </ul>
+                      </span><br><span class="text-size2">4:44</span>
+                      </div>      		
+                </div>
+                <!-- latest release info end -->
+                 <!-- latest release info -->
+      		<div class="latest-release-box">
+      			<img src="images/onism.jpeg">
+      			<div id="singer-details"><span class="text-size1">Onism</span><br>
+                    <span class="text-size2">AUG 11,2017</span></div> 
+                      <div class="time latest-relaese-icon">
+                        <input type="checkbox" id="latest-release-icon4" class="latest-relaese-icon-toggle" name="toggle">
+                        <label for="latest-release-icon4">&nbsp&nbsp<i class="fas fa-ellipsis-h"></i></label>
+                    <ul >
+                      <li><a href=""><i class="fas fa-play"></i> Play Now</a></li>
+                      <li><a href=""><i class="fas fa-plus"></i> Add To Queue</a></li>
+                      <li><a href=""><i class="far fa-heart"></i> Add to favoourite</a></li>
+                      <li><a href=""><i class="fas fa-info-circle"></i> Get Info</a></li>
+                    </ul>
+                      </span><br><span class="text-size2">4:44</span>
+                      </div>      		
+                </div>
+                <!-- latest release info end -->
+      	</div>
+      </section>
+      <!-- latest release section end -->
+      
+     <!--  popular artist section begins -->
+      <section id="popular-artist"  class="heading-design border-image">
+        <!-- heading for popular artist section -->
+      	<h4>Popular Artist</h4>  
+        <!-- popular artist info begins -->
+      	  <div  id="artist-conatiner">
+            <!-- about artist begins-->
+            <div>
+                  <div>
+                    <a href="maroon5.html"><img src="images/adam_levine.jpeg"></a>
+                  </div>
+                  <div class=" center">Adam Levine</div>
+              </div>      
+              <!-- about artist ends -->
+               <!-- about artist begins-->
+               <div>
+                  <div>
+                    <a href="one_direction_band.html"><img src="images/zyan_malik.jpeg"></a>
+                  </div>
+                  <div class=" center">Zyan Malik</div>
+              </div>  
+              <!-- about artist ends -->
+              <!-- about artist begins -->
+               <div>
+                  <div>
+                    <a href="coldplay.html"><img src="images/chris_martin.jpeg"></a>
+                  </div>
+                  <div class=" center">Chris Martin</div>
+              </div>  
+              <!-- about artist ends -->
+              <!-- about artist begins -->
+               <div>
+                  <div>
+                    <a href="five_seconds_of_summer.html"><img src="images/luke_image.jpeg"></a>
+                  </div>
+                  <div class=" center">Luke Hemmings</div>
+              </div> 
+              <!-- about artist ends -->
+              <!-- about artist begins -->
+      	      <div>
+                  <div>
+                     <a href="ed_sheeran.html"><img src="images/Ed-Sheeran.jpg"></a>
+                  </div>
+                  <div class=" center">Ed Sheeran</div>
+              </div>
+              <!-- about artist ends -->
+              <!-- about artist begins -->
+              <div>
+                  <div>
+                    <a href="alan_walker.html"><img src="images/alan_walker.jpeg"></a>
+                  </div>
+                  <div class=" center">Alan Walker</div>
+              </div>
+              <!-- about artist ends -->
+              <!-- about artist begins -->
+              <div>
+                  <div>
+                    <a href="taylor_swift.html"><img src="images/taylor_swift.jpeg"></a>
+                  </div>
+                  <div class=" center">Taylor Swift</div>
+              </div>
+              <!-- about artist ends -->
+              <!-- about artist begins -->
+              <div>
+                  <div>
+                    <a href="arijit_singh.html"><img src="images/arijit.jpeg"></a>
+                  </div>
+                  <div class=" center">Arijit Singh</div>
+              </div>
+              <!-- about artist ends -->
+              <!-- about artist begins -->
+              <div>
+                  <div>
+                    <a href="shirley_setia.html"><img src="images/shirley_sethia.jpeg"></a>
+                  </div>
+                  <div class=" center">Shirley Sethia</div>
+              </div> 
+              <!-- about artist ends -->
+              <!-- about artist begins -->	
+      	  </div>
+          <!-- popular artist info ends -->
+      </section>
+      <!-- popular artist section end -->
+
+      <!-- radio stations section begin -->
+      <section id="station-section">
+          <!-- station info begins -->
+      		<div class="station-image-box">
+				    <img src="images/station.png" style="border-radius: 0%; height:115px;width: 115px; opacity: 1;"></span>
+			    </div>
+          <!-- station info ends -->
+          <!-- station info begins -->
+			<div class="station-image-box">
+				<img src="images/romantic.jpeg">
+			</div>
+      <!-- station info ends -->
+      <!-- station info begins -->
+			<div class="station-image-box">
+				<img src="images/retro.png">
+			</div>
+      <!-- station info ends -->
+      <!-- station info begins -->
+			<div class="station-image-box">
+				<img src="images/workout.jpeg">
+			</div>
+      <!-- station info ends -->
+      <!-- station info begins -->
+			<div class="station-image-box">
+				<img src="images/hip_pop.jpeg">
+			</div>
+      <!-- station info ends -->
+      <!-- station info begins -->
+      <div class="station-image-box">
+        <img src="images/rock.jpeg">
+      </div>
+      <!-- station info ends -->
+      <!-- station info begins -->
+			<div class="station-image-box">
+				<img src="images/chill.jpeg">
+			</div>
+      <!-- station info ends -->
+      <!-- station info begins -->
+      </section>
+      <!-- radio station section end -->
+
+     <!--  other section begins -->
+      <section id="other-section">
+        <!-- other section info begins -->
+			 <div class="other-section-box">
+          <figure>
+              <img src="images/party.jpeg">
+          </figure>
+				
+				  <div class="text-block">
+    				<h3>Party</h3>
+    		  </div>
+			</div>    
+      <!-- other section info ends -->
+      <!-- other section info begins -->
+			<div class="other-section-box">
+        <figure>
+            <img src="images/electronics.jpg">
+        </figure>
+				
+				<div class="text-block">
+    				<h3>Electronics</h3>
+    		</div>
+			</div>   
+      <!-- other section info ends -->
+      <!-- other section info begins -->
+			<div class="other-section-box">
+        <figure>
+            <img src="images/road_trip.jpeg">
+        </figure>
+				<div class="text-block">
+    				<h3>Road_Trip</h3>
+    		</div>
+			</div> 
+      <!-- other section info ends -->
+      <!-- other section info begins -->
+      </section>
+      <!-- other section ends -->
+
+      <!-- latest english section begins -->
+       <section id="popular-artist" class="heading-design border-image">
+      	<h4 >Latest English</h4><!--title-->
+        <div class="artists">
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/english1.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/english2.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/english3.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/english4.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/english4.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/english6.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+        </div>
+      </div>
+      </section>
+      <!-- latest english section ends -->
+
+      <!-- latest hindi section begins -->
+       <section id="popular-artist" class="heading-design border-image">
+       		<h4 >Latest Hindi</h4>
+      	<div class="artists">
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/hindi1.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/hindi2.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/hindi3.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/hindi4.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/hindi5.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+          <!--songs info starts-->
+          <div class="language-info">
+            <img src="images/hindi6.jpeg"><br>
+            <span class="title">Onism</span><br>
+            <span class="singer">AUG 11, 2017</span>
+          </div>
+          <!--songs info ends-->
+        </div>
+      </div>
+      </section>
+      <!-- latest hindi section ends -->
+	</main>
+  <!-- main section ends -->
+
+ <!--  aside begins -->
+	<aside>			
+    <!-- using popular section property by atering the height for aside section -->
+    <section id="popular-song-section" style="height: 80vh;"> 
+     <!--  header of aside section begins -->
+       <div class="similar-artist-header" style="height: auto; ">
+        <span>Queue</span>
+        <div class="view-all-tab">
+            <input type="checkbox" id="item2" class="accordion-toggle view_all_queue" name="toggle">
+            <label for="item2">Queue &nbsp&nbsp&nbsp<i class="fa fa-caret-down"></i> </label>
+            <!-- dropdown of queue button begins -->
+            <div class="view-all-content">
+              <div ><a href="">Playlists</a></div>
+              <div ><a href="">Favourite Songs</a></div>
+            </div>
+            <!-- dropdown of queue button ends -->
+        </div>
+        <!-- header of aside section ends -->
+      </div>
+      <!-- aside body begins -->
+      <div id="aside-content">
+      <!-- list for song info begins -->
+      <ol>
+        <li>
+         <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/shirley_sethia.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+        <li>
+          <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/aside_image1.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+        <li>
+          <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/arijit.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+        <li>
+          <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/shirley_sethia.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+        <li>
+          <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/aside_image1.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+          <li>
+          <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/arijit.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+          <li>
+            <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/shirley_sethia.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+          <li>
+             <!--  song info begins -->
+          <div>
+            <a href="#" class="aside-list"><img src="images/aside_image1.jpeg"></a>
+              <a  class="aside-list-name" href="#">song name</a> 
+            <i class="far fa-heart"></i>
+            </div>
+            <!--  song info ends-->
+          </li>
+      </ol>
+    </div>
+    </section>
+	</aside>
+  <!-- aside ends -->
+</body>
+</html>
